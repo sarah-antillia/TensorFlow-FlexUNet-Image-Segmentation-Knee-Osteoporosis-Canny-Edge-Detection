@@ -269,16 +269,10 @@ epoch_change_infer       = True
 epoch_change_infer_dir   =  "./epoch_change_infer"
 num_infer_images         = 6
 </pre>
-
 By using this callback, on every epoch change, the inference procedure can be called
  for 6 images in the <b>mini_test</b> folder. This will help you confirm how the predicted mask changes 
  at each epoch during your training process.<br> 
 <br> 
-As shown below, early in the model training, the predicted masks from our UNet segmentation model showed 
-discouraging results.
- However, as training progressed through the epochs, the predictions gradually improved. 
- <br> 
-<br>
 <b>Epoch_change_inference output at starting (epoch 1, 2, 3)</b><br>
 <img src="./projects/TensorFlowFlexUNet/Knee-Osteoporosis-Canny-Edge-Detection/asset/epoch_change_infer_at_start.png" width="1024" height="auto"><br>
 <br>
