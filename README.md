@@ -397,7 +397,7 @@ Amany M. Sarhan, Mohamed Gobara, Shady Yasser, Zainab Elsayed, Ghada Sherif,<br>
 <br><br>
 <b>2. TensorFlow-FlexUNet-Image-Segmentation-OAI-Knee-Osteoarthritis-Canny-Edge-Detection </b><br>
 Toshiyuki Arai<br>
-<a href="https://github.com/sarah-antillia/TensorFlow-FlexUNet-Image-Segmentation-OAI-Knee-Osteoarthritis-Edge-Detection">
+<a href="https://github.com/sarah-antillia/TensorFlow-FlexUNet-Image-Segmentation-OAI-Knee-Osteoarthritis-Canny-Edge-Detection">
 https://github.com/sarah-antillia/TensorFlow-FlexUNet-Image-Segmentation-OAI-Knee-Osteoarthritis-Canny-Edge-Detection
 </a>
 <br><br>
