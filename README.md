@@ -18,7 +18,8 @@ which was derived by us from the following dataset:
 <b>Multi-Class Knee Osteoporosis X-Ray Dataset</b>
 </a>  by Mohamed Gobara .
 <br><br>
-This experiment is a new approach to the Knee Osteoporosis X-Ray Edge Detection Segmentation model, 
+This experiment is a new approach to the Knee Osteoporosis X-Ray Edge Detection Segmentation model based on 
+<b>Canny Edge Pseudo Masks</b>,  
 which differs from conventional image segmentation models.<br> 
 <br>
 <hr>
