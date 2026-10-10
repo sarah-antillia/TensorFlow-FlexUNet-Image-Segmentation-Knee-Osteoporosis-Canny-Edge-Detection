@@ -25,7 +25,7 @@ which differs from conventional image segmentation models.<br>
 <b>Actual Image Segmentation for Knee-Osteoporosis Canny Edge Images of 512x512 pixels</b><br>
 As shown below, the inferred masks resemble the ground-truth masks. <br>
 <br>
-<b>class_color_map = {Normal: green, Osteopenia: yellow, Osteoporosis: dark_red]</b><br><br>
+<b>class_color_map = {Normal: green, Osteopenia: yellow, Osteoporosis: dark_red}</b><br><br>
 <table>
 <tr>
 <th width="320" height="auto">Input: image</th>
@@ -124,7 +124,7 @@ but it contains no annotation (mask) files.
 ...
   │   └─9999878L.png 
   │    
-  ├─Osteopeni    (374 files)
+  ├─Osteopenia    (374 files)
   │   ├─9000622L.png
 ...
   │   └─9999878L.png 
@@ -254,7 +254,7 @@ patience      = 10
 Specified RGB color map dict for Knee-Osteoporosis-Canny-Edge-Detection 1+3 classes.<br>
 <pre>
 [mask]
-mask_datatyoe    = "categorized"
+mask_datatype    = "categorized"
 mask_file_format = ".png"
 ;Knee-X-Ray RGB color map dict for 1+3 classes.
 ;                    "Normal":green, "Osteopenia":yellow, "Osteoporosis":dark_red,
