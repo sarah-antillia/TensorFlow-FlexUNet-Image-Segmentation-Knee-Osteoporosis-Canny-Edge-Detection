@@ -19,7 +19,7 @@ which was derived by us from the following dataset:
 </a>  by Mohamed Gobara .
 <br><br>
 This experiment is a new approach to the Knee Osteoporosis X-Ray Edge Detection Segmentation model, 
-which differs from conventional image classification models.<br> 
+which differs from conventional image segmentation models.<br> 
 <br>
 <hr>
 <b>Actual Image Segmentation for Knee-Osteoporosis Canny Edge Images of 512x512 pixels</b><br>
