@@ -115,7 +115,7 @@ As shown above, the number of images in the training and valid datasets is large
  training set of our segmentation model.
 <br>
 <h3>2.2 Derivation of ImageMask Dataset</h3>
-The folder structure of our <b>OAI-Images</b> derived from the original dataet excluded <b>Normal</b> is as follows,
+The folder structure of our <b>OAI-Images</b> derived from the original dataset  is as follows,
 but it contains no annotation (mask) files.
 <br>
 <pre>
