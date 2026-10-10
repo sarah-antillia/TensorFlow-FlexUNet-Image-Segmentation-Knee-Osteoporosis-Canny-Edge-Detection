@@ -155,11 +155,11 @@ ImageMaskDatasetGenerator.py
 <br><br>
 <b>Step 4</b><br>
 We generated a pretrained FlexUNet Segmentation Model by using the first 
-<b>Knee-Osteoporosis-Canny-Edge-Detection-ImageMask-Datase</b> dataset.<br>
+<b>ImageMask-Dataset</b>.<br>
 <br>
 <b>Step 5</b><br>
-We generated the second pseduo masks by applying the segementation (inference) method of 
-the pretrained FlexUNet Model.<br>
+We generated the second pseudo masks by applying the segmentation (inference) method of 
+the pretrained FlexUNet Model to the cropped master images.<br>
 <br>
 <b>Step 6</b><br>
 We generated curated pseudo masks from the second pseudo masks generated in the previous step by using a 
@@ -251,7 +251,7 @@ Enabled early stopping callback with the patience parameter.
 patience      = 10
 </pre>
 <b>RGB Color map</b><br>
-Specified RGB color map dict for Knee-Osteoporosis-Canny-Edge-Detection 1+2 classes.<br>
+Specified RGB color map dict for Knee-Osteoporosis-Canny-Edge-Detection 1+3 classes.<br>
 <pre>
 [mask]
 mask_datatyoe    = "categorized"
@@ -306,7 +306,7 @@ and run the following bat file to evaluate the TensorFlowUNet model for Knee-Ost
 </pre>
 This runs the following command.
 <pre>
->python ../../../src/TensorFlowFlexUNetEvaluator.py ./train_eval_infer_aug.config
+>python ../../../src/TensorFlowFlexUNetEvaluator.py ./train_eval_infer.config
 </pre>
 
 Evaluation console output:<br>
@@ -331,7 +331,7 @@ and run the following bat file to infer segmentation regions for images using th
 </pre>
 This runs the following command.
 <pre>
->python ../../../src/TensorFlowFlexUNetInferencer.py ./train_eval_infer_aug.config
+>python ../../../src/TensorFlowFlexUNetInferencer.py ./train_eval_infer.config
 </pre>
 <hr>
 <b>mini_test_images</b><br>
@@ -347,7 +347,7 @@ This runs the following command.
 <b>Enlarged images and masks for Knee-Osteoporosis Canny Edge Detection Images of 512x512 pixels</b><br>
 As shown below, the inferred masks look similar to the ground truth masks except for the second and fourth cases.<br>
 <br>
-<b>class_color_map = {Normal: green, Osteopenia: yellow, Osteoporosis: dark_red]</b><br><br>
+<b>class_color_map = {Normal: green, Osteopenia: yellow, Osteoporosis: dark_red} </b><br><br>
 <table>
 <tr>
 <th width="320" height="auto">Image</th>
