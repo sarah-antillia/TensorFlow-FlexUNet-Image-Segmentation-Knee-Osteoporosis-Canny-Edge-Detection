@@ -53,7 +53,7 @@ As shown below, the inferred masks resemble the ground-truth masks. <br>
 <hr>
 <br>
 <h3>1. Dataset Citation</h3>
-The dataset used here was derived from the following two datasets on the Kaggle website.
+The dataset used here was derived from the following dataset on the Kaggle website.
 <br><br>
 <a href="https://www.kaggle.com/datasets/mohamedgobara/multi-class-knee-osteoporosis-x-ray-dataset/data">
 <b>Multi-Class Knee Osteoporosis X-Ray Dataset</b>
