@@ -340,7 +340,7 @@ This runs the following command.
 <br>
 <hr>
 <b>Enlarged images and masks for Knee-Osteoporosis Canny Edge Detection Images of 512x512 pixels</b><br>
-As shown below, the inferred masks look similar to the ground truth masks except for the second and fourth cases.<br>
+As shown below, the inferred masks look similar to the ground truth masks.<br>
 <br>
 <b>class_color_map = {Normal: green, Osteopenia: yellow, Osteoporosis: dark_red} </b><br><br>
 <table>
